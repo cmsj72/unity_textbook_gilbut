@@ -29,3 +29,22 @@ Rect Transform
 ------
 
 ※ 글자를 배치할 때 Rect Transform 항목의 Width와 Height 값이 표시할 문장 크기보다 작으면 글자가 화면에 제대로 표시되지 않는다.
+
+
+
+------
+
+컴포넌트(Component)
+
+- 유니티 오브젝트는 GameObject라는 빈 상자에 컴포넌트를 추가해서 기능을 늘릴 수 있다.
+- GetComponent<OO>() : 게임 오브젝트에 대해 OO 컴포넌트를 가져오는 메서드
+- transform = GetComponent<Transform>()
+- 직접 만든 스크립트도 컴포넌트의 일종이므로 GetComponent를 통해 가져올 수 있다.
+
+
+
+자신 이외의 오브젝트 컴포넌트에 접근하는 방법
+
+1. Find로 오브젝트를 찾는다.
+2. GetComponent로 오브젝트의 컴포넌트를 구한다.
+3. 컴포넌트를 가진 데이터에 접근
