@@ -48,3 +48,19 @@ Rect Transform
 1. Find로 오브젝트를 찾는다.
 2. GetComponent로 오브젝트의 컴포넌트를 구한다.
 3. 컴포넌트를 가진 데이터에 접근
+
+------
+
+오디오소스(AudioSource)
+
+- Play On Awake : 체크되있을 시 게임을 시작한 시점에 자동으로 소리가 재생
+
+  | 형식                          | 확장자     |
+  | ----------------------------- | ---------- |
+  | MPEG Layer3                   | .mp3       |
+  | Ogg Varbis                    | .ogg       |
+  | Microsoft Wave                | .wav       |
+  | Audio Interchange File Format | .aiff/.aif |
+
+  
+

@@ -58,7 +58,13 @@ public class CarController : MonoBehaviour
             Vector2 endPos = Input.mousePosition;
             float swipeLength = (endPos.x - this.startPos.x);
             Debug.Log(swipeLength);
+            
+            //스와이프 길이를 처음 속도로 변경
+            //수정하면 자동차의 초기 속도가 바뀐다.
+            //자동차의 속도나 이동 거리를 바꾸고 싶다면 이 값을 수정
             this.speed = swipeLength / 500.0f;
+
+            GetComponent<AudioSource>().Play();
         }
 
         transform.Translate(this.speed, 0, 0);
