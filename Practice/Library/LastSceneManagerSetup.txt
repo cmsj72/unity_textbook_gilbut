@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/CatEscape.unity
+- path: Assets/Scenes/chapter6/GameScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
