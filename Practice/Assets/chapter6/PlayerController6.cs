@@ -10,7 +10,7 @@ public class PlayerController6 : MonoBehaviour
     float jumpForce = 680.0f;
     float walkForce = 30.0f;
     float maxWalkSpeed = 2.0f;
-    float threshold = 0.2f;
+    //float threshold = 0.2f;
 
     // Start is called before the first frame update
     void Start()
